@@ -1,0 +1,63 @@
+{
+    "name": "jsTestBot",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "9163f4bc-f36d-43f8-9f30-cb71e32d33b7",
+            "subscriptionId": "5258ec9f-3fcf-4f55-a06b-d71cf23d7879",
+            "resourceGroup": "resG1",
+            "serviceName": "jsTestBot",
+            "name": "jsTestBot",
+            "id": "1",
+            "appId": "8dc960e7-61a2-4404-9a5a-2407a8a2af94"
+        },
+        {
+            "type": "blob",
+            "connectionString": "u72k9ozVT9vRuIzIFekvNQ==!lw3yhqQbRMtPM3g3mGiXGSJMn0fb9e/KMLCZ81v6rXoQyZ66OBwj8spV02H6C3Wc1HQWhSnrFYbxLOXw33uNNrT1KaqSZsE41/vkvTd7TBVjAVc68Hg90aO0pUKFKGT2/irFnlVvZ4RjHNaTUTcF4g6dQCzdbs533lUC610lTHnEBDKvLQrBnczW1wOus9HvnyTYntGXbsu3MhUA99ZCcw==",
+            "tenantId": "9163f4bc-f36d-43f8-9f30-cb71e32d33b7",
+            "subscriptionId": "5258ec9f-3fcf-4f55-a06b-d71cf23d7879",
+            "resourceGroup": "resG1",
+            "serviceName": "jstestbot9022",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "8dc960e7-61a2-4404-9a5a-2407a8a2af94",
+            "appPassword": "0n/IGBXzDneW/X957EzGbQ==!kXOHZ1b8qWk0BONNpFst/SnxUAhgOKFJstl/9aEiR5c=",
+            "endpoint": "https://jstestbot.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "lLo8lFjvVyI6oLa9h+EPjA==!5WdbULCC4zMwet9BNK4tcg4dpaiejBBn+AIss6DVvXuqULdCCoCTW/nhwMhsK9OG",
+            "applicationId": "2922a568-f4a9-4eed-b155-1b6d4507b83b",
+            "apiKeys": {},
+            "tenantId": "9163f4bc-f36d-43f8-9f30-cb71e32d33b7",
+            "subscriptionId": "5258ec9f-3fcf-4f55-a06b-d71cf23d7879",
+            "resourceGroup": "resG1",
+            "serviceName": "jsTestBot5nifse",
+            "id": "5"
+        },
+        {
+            "type": "qna",
+            "name": "testFAQ",
+            "kbId": "441cfead-1e6a-4ca1-8a31-ef1b399bab1c",
+            "subscriptionKey": "+N0wVvV3skvgdWa+ELe8ng==!kT4k9mF8Hy/wbgf7URihkNQROqXSz7q5vCvDrBnqjPqG+IeRDBgricVvPBCMDBCu",
+            "endpointKey": "9cOCEdpvVtAdfFCSwPjOsw==!lHWKz6KaTMbQTfGrT4J1vQM+S7AEpjoZDVUAwUjuAQ0rb5tfSYmS3F+Fnq5DMTvJ",
+            "hostname": "https://nectestfaq.azurewebsites.net/qnamaker",
+            "id": "14"
+        }
+    ],
+    "padlock": "zWWT9lpi2tNfvs7Jts2Eqg==!ZSZsxhKUWW3i+2wsp04d+LCdk/eHyxL/7ua+HElwgv2f6FLLkYsE6Y259FcBH9XQ",
+    "version": "2.0"
+}
